@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+    <style>
+     .hover{
+         background-color: red;
+         border-color: tomato;
+         color: white;
+     }
+     .row{ margin-bottom: 15px; }
+     input, textarea{
+         display: block;
+         width: 100%;
+     }
+     .form{ max-width: 300px;}
+
+     label { margin-bottom: 5px;}
+
+    </style>
+
+<body>
+    
+    <div class="form">
+        <div class="row">
+            <label for='name'>Name: </label>
+            <br>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for='about'>AboutMe:</label>
+            <br>
+            <textarea name="" id="about" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="row">
+            <label for="profession">Profession</label>
+            <select id="profession">
+                <option value="student">student</option>
+                <option value="develoveper">developer</option> 
+                <option value="design">design</option>
+            </select>
+        </div>
+
+        <button>Click</button>
+    </div>
+
+ 
+
+    <script src="./form.js"></script>
+</body>
+</html>
